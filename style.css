@@ -164,7 +164,7 @@ a{color:inherit}
 /* ---------- Fakten ---------- */
 .facts{background:var(--blue-deep);color:#fff;padding-block:clamp(38px,5vw,60px)}
 .facts .in{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:clamp(22px,3vw,40px)}
-.facts div{border-left:3px solid var(--blue-h);padding-left:18px}
+.facts .in>div{border-left:3px solid var(--blue-h);padding-left:18px}
 .facts b{display:block;font-family:var(--disp);font-weight:700;font-size:clamp(1.9rem,3.6vw,2.8rem);
   line-height:1;margin-bottom:8px;font-variant-numeric:tabular-nums}
 .facts span{font-size:14.5px;color:#A8C2DE;display:block;max-width:24ch}
