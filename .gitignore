@@ -1,0 +1,7 @@
+.vercel
+.playwright-mcp
+.DS_Store
+*.jpeg
+*.png
+!images/*
+design/
